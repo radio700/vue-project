@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'//보여줄 vue 컴포넌트
 import DataBinding from '../views/DataBinding.vue'//보여줄 vue 컴포넌트
+import DataBindingMiddle from '../views/DataBindingMiddle.vue'//보여줄 vue 컴포넌트
 
 const routes = [
   {
@@ -20,7 +21,13 @@ const routes = [
     path: '/databinding',
     name: 'DataBinding',
     component: DataBinding
+  },
+  {
+    path: '/databindingMiddle',
+    name: 'DataBindingMiddle',
+    component: DataBindingMiddle
   }
+
 ]
 
 const router = createRouter({
