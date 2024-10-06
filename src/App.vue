@@ -5,6 +5,9 @@
         <router-link to="/parentcomp">ParentComp</router-link> |
         <router-link to="/parentcomp2">ParentComp2</router-link> |
         <router-link to="/parentparentcomponent">ParentParentComponent</router-link> |
+        <router-link to="/getcalculator">getcalculator</router-link> |
+        <router-link to="/getcalculator2">GetCalculator2</router-link> |
+        <router-link to="/reactivepartner">Reactive_partner</router-link> |
         
     </nav>
     <router-view/>

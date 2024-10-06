@@ -3,6 +3,9 @@ import HomeView from '../views/HomeView.vue'//보여줄 vue 컴포넌트
 import ParentComp from '@/views/childPreantExample/ptoc/ParentComp.vue'
 import ParentComp2 from '@/views/childPreantExample/ctop/ParentComp2.vue'
 import ParentParentComponent from '@/views/childPreantExample/provide_inject/ParentParentComponent.vue'
+import GetCalculator from '@/views/compositionApi/GetCalculator.vue'
+import GetCalculator2 from '@/views/compositionApi/GetCalculator2.vue'
+import Reactive_partner from '@/views/react_ref/Reactive_partner.vue'
 const routes = [
     {
         path: "/",
@@ -32,6 +35,21 @@ const routes = [
         path: "/parentparentcomponent",
         name: "parentparentcomponent",
         component: ParentParentComponent,
+    },
+    {
+        path: "/getcalculator",
+        name: "getcalculator",
+        component: GetCalculator,
+    },
+    {
+        path: "/getcalculator2",
+        name: "getcalculator2",
+        component: GetCalculator2,
+    },
+    {
+        path: "/reactivepartner",
+        name: "getcalculator2",
+        component: Reactive_partner,
     },
 ];
 
