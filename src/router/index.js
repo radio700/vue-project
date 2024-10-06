@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'//보여줄 vue 컴포넌트
 import ParentComp from '@/views/childPreantExample/ptoc/ParentComp.vue'
 import ParentComp2 from '@/views/childPreantExample/ctop/ParentComp2.vue'
+import ParentParentComponent from '@/views/childPreantExample/provide_inject/ParentParentComponent.vue'
 const routes = [
     {
         path: "/",
@@ -19,19 +20,24 @@ const routes = [
     },
     {
         path: "/parentcomp",
-        name: "ParentComp", //보여줄 vue 컴포넌트
+        name: "ParentComp",
         component: ParentComp,
     },
     {
         path: "/parentcomp2",
-        name: "ParentComp2", //보여줄 vue 컴포넌트
+        name: "ParentComp2",
         component: ParentComp2,
+    },
+    {
+        path: "/parentparentcomponent",
+        name: "parentparentcomponent",
+        component: ParentParentComponent,
     },
 ];
 
 const router = createRouter({
-  history: createWebHistory(process.env.BASE_URL),
-  routes
+    history: createWebHistory(process.env.BASE_URL),
+    routes
 })
 
 export default router

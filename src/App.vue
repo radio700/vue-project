@@ -3,7 +3,9 @@
         <router-link to="/">Home</router-link> |
         <router-link to="/about">About</router-link> |
         <router-link to="/parentcomp">ParentComp</router-link> |
-        <router-link to="/parentcomp2">ParentComp2</router-link>
+        <router-link to="/parentcomp2">ParentComp2</router-link> |
+        <router-link to="/parentparentcomponent">ParentParentComponent</router-link> |
+        
     </nav>
     <router-view/>
 </template>
