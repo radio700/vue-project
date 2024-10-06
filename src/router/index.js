@@ -6,6 +6,7 @@ import ParentParentComponent from '@/views/childPreantExample/provide_inject/Par
 import GetCalculator from '@/views/compositionApi/GetCalculator.vue'
 import GetCalculator2 from '@/views/compositionApi/GetCalculator2.vue'
 import Reactive_partner from '@/views/react_ref/Reactive_partner.vue'
+import Ref_partner from '@/views/react_ref/Ref_partner.vue'
 const routes = [
     {
         path: "/",
@@ -50,6 +51,11 @@ const routes = [
         path: "/reactivepartner",
         name: "getcalculator2",
         component: Reactive_partner,
+    },
+    {
+        path: "/refpartner",
+        name: "getcalculatorrefpartner",
+        component: Ref_partner,
     },
 ];
 
