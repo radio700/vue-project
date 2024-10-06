@@ -9,6 +9,8 @@
         <router-link to="/getcalculator2">GetCalculator2</router-link> |
         <router-link to="/reactivepartner">Reactive_partner</router-link> |
         <router-link to="/refpartner">Ref_partner</router-link> |
+        <router-link to="/torefpartner">ToRef_partner</router-link> |
+        
         
     </nav>
     <router-view/>

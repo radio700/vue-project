@@ -7,6 +7,7 @@ import GetCalculator from '@/views/compositionApi/GetCalculator.vue'
 import GetCalculator2 from '@/views/compositionApi/GetCalculator2.vue'
 import Reactive_partner from '@/views/react_ref/Reactive_partner.vue'
 import Ref_partner from '@/views/react_ref/Ref_partner.vue'
+import ToRef_partner from '@/views/react_ref/ToRef_partner.vue'
 const routes = [
     {
         path: "/",
@@ -56,6 +57,11 @@ const routes = [
         path: "/refpartner",
         name: "getcalculatorrefpartner",
         component: Ref_partner,
+    },
+    {
+        path: "/torefpartner",
+        name: "torefpartner",
+        component: ToRef_partner,
     },
 ];
 
