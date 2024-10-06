@@ -10,8 +10,7 @@
         <router-link to="/reactivepartner">Reactive_partner</router-link> |
         <router-link to="/refpartner">Ref_partner</router-link> |
         <router-link to="/torefpartner">ToRef_partner</router-link> |
-        
-        
+        <router-link to="/torefspartner">ToRefs_partner</router-link> |
     </nav>
     <router-view/>
 </template>
